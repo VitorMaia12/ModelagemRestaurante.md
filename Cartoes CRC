@@ -24,7 +24,7 @@ cardápio
 3.Classe: Entregador
 Responsabilidades:
 Receber notificações dos pedidos pendentes de entrega.
-Visualizar os endereções e prazos de entrega de cada pedido 
+Visualizar os endereçõs e prazos de entrega de cada pedido 
 Atualizar o status do pedido para "entregue".
 Colaborações:	
 Cliente
