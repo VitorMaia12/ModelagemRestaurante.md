@@ -1,0 +1,62 @@
+O RESTAURANTE
+Bernardo Lopes, Luan, Pedro Pina, Ronaldo Afonso, Vitor
+Cartões CRC:
+
+1.Classe: Dono do Restaurante
+Responsabilidades:
+Gerenciar os fornecedores cadastrados no sistema.
+Visualizar o status do estoque de cada insumo.
+Visualizar os relatórios de vendas e faturamento.
+Colaborações:
+Relatório
+
+2.Classe: Cliente
+Responsabilidades:
+Realizar pedidos de comida pelo aplicativo.
+Acompanhar o status dos seus pedidos em tempo real.
+Cancelar pedidos antes do preparo.
+Visualizar o cardápio
+Colaborações:
+Entregador
+Pedido
+cardápio
+
+3.Classe: Entregador
+Responsabilidades:
+Receber notificações dos pedidos pendentes de entrega.
+Visualizar os endereções e prazos de entrega de cada pedido 
+Atualizar o status do pedido para "entregue".
+Colaborações:	
+Cliente
+Pedido
+
+4.Classe: Cozinheiro
+Responsabilidades:
+Preparar os pedidos segundo as especificações dos clientes.
+Informar ao sistema o status de disponibilidade de cada um dos insumos.
+Atualizar o status de cada pedido para “pronto para entrega”
+Colaborações:
+Cliente 
+Pedido
+
+5.Classe: Pedido
+Responsabilidades:
+Armazenar dados dos pedidos de cada cliente
+Informar especificações do pedido 
+Colaborações:
+Dono do Restaurante
+Cliente
+Cozinheiro
+Relatório
+Entregador
+
+6.Classe: Relatório
+Responsabilidades:
+Armazenar dados de vendas
+Calcular lucros e despesas do restaurante
+Colaboração:
+Pedido
+
+7.Classe: Cardápio
+Responsabilidades:
+Informar os itens existentes no cardápio
